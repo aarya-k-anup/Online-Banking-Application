@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FixedDepositController">
+   <children>
+      <Label fx:id="balanceLbl" layoutX="69.0" layoutY="62.0" text="Balance">
+         <font>
+            <Font name="Segoe Print" size="19.0" />
+         </font></Label>
+      <Label fx:id="amountLbl" layoutX="67.0" layoutY="100.0" text="Amount">
+         <font>
+            <Font name="Segoe Print" size="19.0" />
+         </font></Label>
+      <Label fx:id="tenorLbl" layoutX="78.0" layoutY="153.0" text="Tenor">
+         <font>
+            <Font name="Segoe Print" size="19.0" />
+         </font></Label>
+      <Button fx:id="createBtn" layoutX="220.0" layoutY="233.0" mnemonicParsing="false" onAction="#fixedDepositAction" text="Create" />
+      <CheckBox fx:id="seniorCitizenChB" layoutX="220.0" layoutY="200.0" mnemonicParsing="false" text="Senoir citizen (age above 65 year)" />
+      <Hyperlink fx:id="viewInterestRatesLink" layoutX="425.0" layoutY="156.0" onAction="#viewInterestRatesAction" text="View Interest Rates" />
+      <TextField fx:id="enterAmountTxt" layoutX="220.0" layoutY="102.0" promptText="enter amount" />
+      <TextField fx:id="enterTenorTxt" layoutX="220.0" layoutY="155.0" promptText="enter tenor" />
+      <Label fx:id="balanceDisplay" layoutX="220.0" layoutY="69.0" text="balanceDisplay" />
+      <Label fx:id="rateDisplay" layoutX="226.0" layoutY="309.0" prefHeight="21.0" prefWidth="187.0" />
+      <Label fx:id="maturityValueLbl" layoutX="42.0" layoutY="302.0" text="Maturity Value">
+         <font>
+            <Font name="Segoe Print" size="19.0" />
+         </font></Label>
+      <Label fx:id="invalidInputLbl" layoutX="203.0" layoutY="275.0" prefHeight="21.0" prefWidth="373.0" />
+   </children>
+</AnchorPane>

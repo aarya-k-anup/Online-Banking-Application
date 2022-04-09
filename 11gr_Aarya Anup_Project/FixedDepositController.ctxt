@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=FixedDepositController
+comment1.params=location\ resources
+comment1.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment2.params=balance
+comment2.target=void\ setBalance(int)
+comment3.params=actionEvent
+comment3.target=void\ fixedDepositAction(javafx.event.ActionEvent)
+comment4.params=actionEvent
+comment4.target=void\ viewInterestRatesAction(javafx.event.ActionEvent)
+numComments=5

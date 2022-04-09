@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddAmountController">
+   <children>
+      <Label fx:id="availableBalanceLbl" layoutX="54.0" layoutY="104.0" text="Available Balance">
+         <font>
+            <Font name="Segoe Print" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="addAmountLbl" layoutX="54.0" layoutY="190.0" text="Enter amount to be added">
+         <font>
+            <Font name="Segoe Print" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="balanceDisplay" layoutX="335.0" layoutY="111.0" text="balancedisplay" />
+      <Button fx:id="addBtn" layoutX="335.0" layoutY="312.0" mnemonicParsing="false" onAction="#addAmountAction" text="Add" />
+      <TextField fx:id="addAmountTxt" layoutX="335.0" layoutY="192.0" promptText="Add amount" />
+      <Label fx:id="addErrorDisplayLbl" layoutX="335.0" layoutY="252.0" prefHeight="21.0" prefWidth="245.0" />
+   </children>
+</AnchorPane>

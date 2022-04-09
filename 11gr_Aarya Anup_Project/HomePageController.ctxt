@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=HomePageController
+comment1.params=location\ resources
+comment1.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment2.params=userName
+comment2.target=void\ setUserName(java.lang.String)
+comment3.params=accountNo
+comment3.target=void\ setAccountNo(java.lang.String)
+comment4.params=event
+comment4.target=void\ accountSummaryAction(javafx.event.ActionEvent)
+comment5.params=event
+comment5.target=void\ addAmountAction(javafx.event.ActionEvent)
+comment6.params=event
+comment6.target=void\ transferFundAction(javafx.event.ActionEvent)
+comment7.params=event
+comment7.target=void\ fixedDepositAction(javafx.event.ActionEvent)
+comment8.params=event
+comment8.target=void\ logoutAction(javafx.event.ActionEvent)
+numComments=9

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=AccountSummaryController
+comment1.params=location\ resources
+comment1.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment2.params=accountNo
+comment2.target=void\ setAccountNo(java.lang.String)
+comment3.params=balance
+comment3.target=void\ setBalance(int)
+numComments=4

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=OnlineBankingMain
+comment1.params=primaryStage
+comment1.target=void\ start(javafx.stage.Stage)
+comment2.params=fxml
+comment2.target=void\ changeScene(java.lang.String)
+numComments=3

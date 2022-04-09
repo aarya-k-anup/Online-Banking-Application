@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #cce6ff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+   <children>
+      <Label fx:id="userNameLbl" layoutX="102.0" layoutY="171.0" text="User Name">
+         <font>
+            <Font name="Segoe Print" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="accountNumberLbl" layoutX="100.0" layoutY="246.0" text="Account ID">
+         <font>
+            <Font name="Segoe Print" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userNameTxt" layoutX="260.0" layoutY="174.0" promptText="User Name" />
+      <TextField fx:id="accountNumberTxt" layoutX="260.0" layoutY="249.0" promptText="Account Number" />
+      <Button fx:id="loginBtn" layoutX="260.0" layoutY="326.0" mnemonicParsing="false" onAction="#loginAction" text="Login" />
+      <Label layoutX="85.0" layoutY="58.0" prefHeight="48.0" prefWidth="424.0" text="Welcome!" textFill="#030303">
+         <font>
+            <Font name="Segoe Script Bold" size="33.0" />
+         </font>
+      </Label>
+      <Label fx:id="loginErrorDisplayLbl" layoutX="254.0" layoutY="132.0" />
+   </children>
+</AnchorPane>

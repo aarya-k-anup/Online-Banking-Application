@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ModelClass
+comment1.params=value
+comment1.target=void\ setUserName(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getUserName()
+comment3.params=
+comment3.target=javafx.beans.property.StringProperty\ userNameProperty()
+comment4.params=value
+comment4.target=void\ setAccountNo(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getAccountNo()
+comment6.params=
+comment6.target=javafx.beans.property.StringProperty\ accountNoProperty()
+comment7.params=value
+comment7.target=void\ setBalance(int)
+comment8.params=
+comment8.target=int\ getBalance()
+comment9.params=
+comment9.target=javafx.beans.property.IntegerProperty\ balanceProperty()
+numComments=10

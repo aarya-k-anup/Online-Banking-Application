@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FundTransferController">
+   <children>
+      <Label fx:id="availableBalanceLbl" layoutX="68.0" layoutY="91.0" text="Available Balance">
+         <font>
+            <Font name="Segoe Print" size="19.0" />
+         </font></Label>
+      <Label fx:id="beneficiaryNameLbl" layoutX="68.0" layoutY="153.0" text="Beneficiary's Name">
+         <font>
+            <Font name="Segoe Print" size="19.0" />
+         </font></Label>
+      <Label fx:id="transferFundAmountLbl" layoutX="68.0" layoutY="219.0" text="Transfer Fund Amonut">
+         <font>
+            <Font name="Segoe Print" size="19.0" />
+         </font></Label>
+      <Label fx:id="balanceDisplay" layoutX="327.0" layoutY="98.0" text="balancedisplay" />
+      <TextField fx:id="beneficiaryNameTxt" layoutX="327.0" layoutY="155.0" promptText="Beneficiary Name" />
+      <TextField fx:id="transferFundAmountTxt" layoutX="327.0" layoutY="221.0" promptText="Transfer Fund Amount" />
+      <Button fx:id="transferBtn" layoutX="327.0" layoutY="306.0" mnemonicParsing="false" onAction="#transferFundAction" text="Transfer" />
+      <Label fx:id="invaidAmountLbl" layoutX="323.0" layoutY="274.0" prefHeight="21.0" prefWidth="254.0" />
+   </children>
+</AnchorPane>
